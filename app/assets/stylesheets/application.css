@@ -13,8 +13,14 @@
  *= require_tree .
  *= require_self
  */
- 
- @import 'skipper';
+
+ @import 'skippr';
+
+
+#container {
+  width: 90%;
+  height: 300px;
+}
 
 .image1 {
   background-image: url(image1.jpg)
